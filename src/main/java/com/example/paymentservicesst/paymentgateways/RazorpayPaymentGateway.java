@@ -30,8 +30,8 @@ public class RazorpayPaymentGateway implements PaymentGateway {
         paymentLinkRequest.put("reference_id", "15423456");
         paymentLinkRequest.put("description","Sample payment link for SST");
         JSONObject customer = new JSONObject();
-        customer.put("name","+919000090000");
-        customer.put("contact","Deepak Kasera");
+        customer.put("name","+9109876655");
+        customer.put("contact","VivekAnandSingh");
         customer.put("email", email);
         paymentLinkRequest.put("customer",customer);
         JSONObject notify = new JSONObject();
